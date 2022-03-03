@@ -29,6 +29,42 @@
   background-size: cover;
 }
 
+footer {
+  background: url("/images/footer-bg.jpg");
+  background-size: cover;
+}
+
+footer .main-container {
+  margin: 0 auto;
+  width: 1000px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .main-container .box-lists {
+  display: flex;
+}
+
+footer .main-container .box-lists > div {
+  padding: 36px 12px;
+}
+
+footer .main-container .box-lists > div h4 {
+  color: white;
+}
+
+footer .main-container .box-lists > div ul {
+  color: grey;
+  font-size: 10px;
+}
+
+footer .main-container .box-logo-bg {
+  width: 400px;
+  background: url("/images/dc-logo-bg.png") no-repeat center;
+  background-size: cover;
+}
+
 * {
   margin: 0;
   padding: 0;
