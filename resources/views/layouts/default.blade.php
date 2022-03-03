@@ -17,7 +17,7 @@
     {{-- Navbar uguale per tutte le pagine --}}
     @include("partials.navbar")
   </header>
-
+  @include("partials.jumbotron")
   <main>
   @yield('main')
   </main>
