@@ -1,0 +1,38 @@
+.nav-container {
+  display: flex;
+  height: 130px;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.nav-container .logo {
+  text-align: center;
+}
+
+.nav-container ul {
+  display: flex;
+}
+
+.nav-container ul li {
+  margin: 0 18px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 130px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.txt-style {
+  font-family: Roboto;
+}
+

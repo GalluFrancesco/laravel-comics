@@ -1,0 +1,24 @@
+.nav-container{
+    display: flex;
+    height: 130px;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    
+    .logo{
+        text-align: center;
+    }
+    
+    ul{
+        display: flex;
+
+        li{
+            margin: 0 18px;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 130px;
+
+        }
+    }
+}
